@@ -1,0 +1,1181 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15713 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+G:\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Aries/Cosmic_Quest/My project (1)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61962
+Successfully changed project path to: D:/Aries/Cosmic_Quest/My project (1)
+D:/Aries/Cosmic_Quest/My project (1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25528] Host "[IP] 10.81.61.43 [Port] 0 [Flags] 2 [Guid] 190989001 [EditorId] 190989001 [Version] 1048832 [Id] WindowsEditor(7,JatinSingal) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25528] Host "[IP] 10.81.61.43 [Port] 0 [Flags] 2 [Guid] 190989001 [EditorId] 190989001 [Version] 1048832 [Id] WindowsEditor(7,JatinSingal) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 5.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path G:/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Aries/Cosmic_Quest/My project (1)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3950 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'G:/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'G:/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'G:/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: G:/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: G:/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003779 seconds.
+- Loaded All Assemblies, in  0.292 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 299 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.566 seconds
+Domain Reload Profiling: 858ms
+	BeginReloadAssembly (87ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (125ms)
+		LoadAssemblies (87ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (122ms)
+				TypeCache.ScanAssembly (112ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (566ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (517ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (392ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (80ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Aries\Cosmic_Quest\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Aries\Cosmic_Quest\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.574 seconds
+Refreshing native plugins compatible for Editor in 2.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.437 seconds
+Domain Reload Profiling: 1011ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (387ms)
+		LoadAssemblies (213ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (235ms)
+			TypeCache.Refresh (222ms)
+				TypeCache.ScanAssembly (210ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (437ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (314ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (230ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 2.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3072 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3539.
+Memory consumption went from 121.0 MB to 120.9 MB.
+Total: 2.826300 ms (FindLiveObjects: 0.214900 ms CreateObjectMapping: 0.092100 ms MarkObjects: 2.423700 ms  DeleteObjects: 0.094700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 322611.739582 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ffa9e3171acca2b77f0091931eae4440') in 0.074714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3539.
+Memory consumption went from 71.3 MB to 71.3 MB.
+Total: 4.082900 ms (FindLiveObjects: 0.261700 ms CreateObjectMapping: 0.084000 ms MarkObjects: 3.711200 ms  DeleteObjects: 0.024600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 919.338063 seconds.
+  path: Assets/space_nebula_6k.jpg
+  artifactKey: Guid(aa7b38db640ca1e45a5d5fe082a0fd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/space_nebula_6k.jpg using Guid(aa7b38db640ca1e45a5d5fe082a0fd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa471c86275b52c352c1ee43c1756bf') in 0.075865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.789718 seconds.
+  path: Assets/space_nebula_6k.jpg
+  artifactKey: Guid(aa7b38db640ca1e45a5d5fe082a0fd1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/space_nebula_6k.jpg using Guid(aa7b38db640ca1e45a5d5fe082a0fd1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7baa1cf5f2c6928991c4a12fe9711bd8') in 0.070594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 35.935372 seconds.
+  path: Assets/space_nebula_6k.jpg
+  artifactKey: Guid(aa7b38db640ca1e45a5d5fe082a0fd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/space_nebula_6k.jpg using Guid(aa7b38db640ca1e45a5d5fe082a0fd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aec89b6b2dc267838c8416d9bf87dc9') in 0.427131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.246386 seconds.
+  path: Assets/space_nebula_6k.jpg
+  artifactKey: Guid(aa7b38db640ca1e45a5d5fe082a0fd1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/space_nebula_6k.jpg using Guid(aa7b38db640ca1e45a5d5fe082a0fd1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '645dd518c7e483bb245ce40a7a85cb2e') in 0.180776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.172545 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(cf925ea31b87f8a41972700bfdfb6b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(cf925ea31b87f8a41972700bfdfb6b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4e4b5e25dd250c804d0a63d0ea2860') in 0.169048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.291491 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(cf925ea31b87f8a41972700bfdfb6b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Material.mat using Guid(cf925ea31b87f8a41972700bfdfb6b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd862d88ec862dfe30f52dfa47d78bc2') in 0.009681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 52.630788 seconds.
+  path: Assets/SkyB0x1.mat
+  artifactKey: Guid(cf925ea31b87f8a41972700bfdfb6b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkyB0x1.mat using Guid(cf925ea31b87f8a41972700bfdfb6b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8884b3a0bd3d1514b63a365382cf964c') in 0.027222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.952415 seconds.
+  path: Assets/SkyB0x1.mat
+  artifactKey: Guid(cf925ea31b87f8a41972700bfdfb6b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SkyB0x1.mat using Guid(cf925ea31b87f8a41972700bfdfb6b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '455d4c08a1c7b542f1c460b277d87b27') in 0.006531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 146.155196 seconds.
+  path: Assets/Skybox
+  artifactKey: Guid(8611659d9b7e8414db62bdab4f3a7bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox using Guid(8611659d9b7e8414db62bdab4f3a7bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6bde8a455d9551c3dd2d181997cc316') in 0.000741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.973767 seconds.
+  path: Assets/Skybox
+  artifactKey: Guid(8611659d9b7e8414db62bdab4f3a7bd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Skybox using Guid(8611659d9b7e8414db62bdab4f3a7bd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e9a2ea6a644ccafad190ba3b1cd9836') in 0.004799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.537698 seconds.
+  path: Assets/Skybox/SkyB0x1.mat
+  artifactKey: Guid(cf925ea31b87f8a41972700bfdfb6b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Skybox/SkyB0x1.mat using Guid(cf925ea31b87f8a41972700bfdfb6b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a09069feb226d5fdf1b7804f629a0457') in 0.275522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 190.171914 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Wing2_Mirrored.prefab
+  artifactKey: Guid(7fe074f22a922d346abeef0a74266e0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Wing2_Mirrored.prefab using Guid(7fe074f22a922d346abeef0a74266e0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a918c9581627271233085139d59c482a') in 0.020030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Big_Launcher.prefab
+  artifactKey: Guid(f90b6d79d3a03de42a5c6e13911b860e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Big_Launcher.prefab using Guid(f90b6d79d3a03de42a5c6e13911b860e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71eac472b9e794ff90a9a26e0783660c') in 0.019172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Materials/MainBodies/Grey
+  artifactKey: Guid(0d1b5df8b8217374696acc6725829df9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Materials/MainBodies/Grey using Guid(0d1b5df8b8217374696acc6725829df9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd70807c43a12f22b01583ed4bf02814') in 0.010039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/Masks/CockpitsEquipments_Mask1.png
+  artifactKey: Guid(1282d2ba7451789499250058fb32eebd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/Masks/CockpitsEquipments_Mask1.png using Guid(1282d2ba7451789499250058fb32eebd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f767fd4bb3a907a03085f3604d948d29') in 0.073106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example3NoInterior_Red.prefab
+  artifactKey: Guid(90d5c4eeecf7d3c41977a39408c2fe00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example3NoInterior_Red.prefab using Guid(90d5c4eeecf7d3c41977a39408c2fe00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a3e6018c59c3d3973c5466f904b6ea9') in 0.018501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 150
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Materials/Cockpits/CockpitEquipments/CockpitsEquipments.mat
+  artifactKey: Guid(afcddc5880b41ed46995d9315d181ead) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Materials/Cockpits/CockpitEquipments/CockpitsEquipments.mat using Guid(afcddc5880b41ed46995d9315d181ead) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '791006a5a07cf99bf66ecc198339a091') in 0.126506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody2/Masks
+  artifactKey: Guid(4b04a27977bb3754f97e596556b15f72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody2/Masks using Guid(4b04a27977bb3754f97e596556b15f72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac88fbfe6e26c02ffa8c2c9bbcbe7303') in 0.004752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/MainBodies
+  artifactKey: Guid(f9ff1e5608901814b889c59131681804) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/MainBodies using Guid(f9ff1e5608901814b889c59131681804) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b338f978fa393cfa46e52a91f84ac644') in 0.005309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Materials/Wings/Grey
+  artifactKey: Guid(5b8dcd7ed8dc19d4d99c855d0a12be41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Materials/Wings/Grey using Guid(5b8dcd7ed8dc19d4d99c855d0a12be41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '518ce416f4d164032427c390102569af') in 0.005559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules
+  artifactKey: Guid(cacd38c1f7665d64e9c93628dab19bc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules using Guid(cacd38c1f7665d64e9c93628dab19bc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35eadd99d1f00dea722d38d4350ded71') in 0.005159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example1_Red.prefab
+  artifactKey: Guid(b90e0b5ced473594d8b3775f20a2aed1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example1_Red.prefab using Guid(b90e0b5ced473594d8b3775f20a2aed1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b1b46912d294d3f90b2fdd62e5be89c') in 0.045299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 460
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example4NoInterior_Grey.prefab
+  artifactKey: Guid(8d4e19a2324d72249a81ab7bcfad91a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example4NoInterior_Grey.prefab using Guid(8d4e19a2324d72249a81ab7bcfad91a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5e49eb2a4d87367d6dad887be491bba') in 0.010521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 200
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6/Wing6_MetallicSmoothness.png
+  artifactKey: Guid(5df3c20ba8901ba4787750e635ffe48f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6/Wing6_MetallicSmoothness.png using Guid(5df3c20ba8901ba4787750e635ffe48f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93a95765190f0b04f2a7791b79fde273') in 0.065254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody2/MainBody2_Grey.png
+  artifactKey: Guid(073034ed62d69a0479d02726d70c04f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody2/MainBody2_Grey.png using Guid(073034ed62d69a0479d02726d70c04f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8feefb2658da25452d2761301c64e0b7') in 0.045515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Weapons/Blaster/Masks/Blaster_Mask2.png
+  artifactKey: Guid(d45426413e686514299d5831d7e0e5fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Weapons/Blaster/Masks/Blaster_Mask2.png using Guid(d45426413e686514299d5831d7e0e5fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7f073a40a496a37ad50492230e30cce') in 0.063242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures
+  artifactKey: Guid(928914d2b8970614dae64ff2dcede6f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures using Guid(928914d2b8970614dae64ff2dcede6f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3df0c1ce715727abf140a27b776d09f1') in 0.005221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs
+  artifactKey: Guid(d3649e806c4a7f54ebd42ffda4073aba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs using Guid(d3649e806c4a7f54ebd42ffda4073aba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1424d53a60d3870ea4ae80c6dac3982') in 0.004169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody13/Masks/MainBody13_Neutral.png
+  artifactKey: Guid(b351ccb59c4bfd449a5cd4a9e230e933) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody13/Masks/MainBody13_Neutral.png using Guid(b351ccb59c4bfd449a5cd4a9e230e933) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad8f7e6d27a28a3b21115bc8e291e117') in 0.063276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Materials/Cockpits/Grey/Cockpit3Grey.mat
+  artifactKey: Guid(acc98c52988a2b94cb2f572f92c9dad0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Materials/Cockpits/Grey/Cockpit3Grey.mat using Guid(acc98c52988a2b94cb2f572f92c9dad0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4c7ae5559ec3f31fba0868baf6b7dfc') in 0.128039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits
+  artifactKey: Guid(4fd4c2ab46860ba41acc77253328447d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits using Guid(4fd4c2ab46860ba41acc77253328447d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd98f644ca05f22862d94c998e2ab7fd6') in 0.004602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Materials/MainBodies
+  artifactKey: Guid(0a9d09c8b61d35c4898fd074d415b67a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Materials/MainBodies using Guid(0a9d09c8b61d35c4898fd074d415b67a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29f0f9b505fa7b9017a820d34882933f') in 0.004381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6/Wing6_Grey.png
+  artifactKey: Guid(50ebca0a9ecce6b45af74ca6cb6174f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6/Wing6_Grey.png using Guid(50ebca0a9ecce6b45af74ca6cb6174f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e6474b55d80a4f4ef24e50985807089') in 0.071342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/MainBody2.prefab
+  artifactKey: Guid(1202b1e73ba4e0d468ce4000e6509541) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/MainBody2.prefab using Guid(1202b1e73ba4e0d468ce4000e6509541) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4549d465cfecd7781c10604e2db458c') in 0.008126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Wings
+  artifactKey: Guid(5f9a6033a21b64f498b7f304d8fcf5db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Wings using Guid(5f9a6033a21b64f498b7f304d8fcf5db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2bac3498ed67c3210b3124631a61488') in 0.004132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Engine1_MetallicSmoothness.png
+  artifactKey: Guid(c54e7ee73bebdca4cbdc76ac7918954d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Engine1_MetallicSmoothness.png using Guid(c54e7ee73bebdca4cbdc76ac7918954d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da99b8d7d895abde50611c15b4c16415') in 0.050172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Weapons
+  artifactKey: Guid(332de1376d70b44488b9c47cd118a147) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Weapons using Guid(332de1376d70b44488b9c47cd118a147) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d769c7db34f52312df1ce453237a283') in 0.016035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Materials/Wings/Red/Wing6.mat
+  artifactKey: Guid(9567a4c84505d3a41a397978275ffd72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Materials/Wings/Red/Wing6.mat using Guid(9567a4c84505d3a41a397978275ffd72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1780959183a38fca52b7cc8c0e8983dd') in 0.114169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2/Masks/Wing2_Mask2.png
+  artifactKey: Guid(72c5a8df73d81e8468eaa72e329ad87e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2/Masks/Wing2_Mask2.png using Guid(72c5a8df73d81e8468eaa72e329ad87e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd73c685c2b95d5c4a8aec61f3039c84f') in 0.045793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6/Wing6_Red.png
+  artifactKey: Guid(a2218956deed3a64094599d3d5381f8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6/Wing6_Red.png using Guid(a2218956deed3a64094599d3d5381f8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e191789cf9813adac417b5bd45f2f34e') in 0.055767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000845 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Cockpit3_Normal.png
+  artifactKey: Guid(2a64b4fea8c46474e870a82432edfc74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Cockpit3_Normal.png using Guid(2a64b4fea8c46474e870a82432edfc74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14840a7df27a124589dfcad4ee9d3fed') in 0.049100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003732 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example4_Grey.prefab
+  artifactKey: Guid(e8b14dde53114d242b5dcad7698a44a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example4_Grey.prefab using Guid(e8b14dde53114d242b5dcad7698a44a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44e15fd961a00837bd7aafa25a7bea87') in 0.028482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 465
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Wing6.prefab
+  artifactKey: Guid(6b60ceeabc86a6e43a7a918dbbcab26b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Wing6.prefab using Guid(6b60ceeabc86a6e43a7a918dbbcab26b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58fc5560820b7b13b09f918647d9d152') in 0.024619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/SpaceBackground.png
+  artifactKey: Guid(7f58cf765c9d79b4a94bd8dc22abc410) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/SpaceBackground.png using Guid(7f58cf765c9d79b4a94bd8dc22abc410) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cbc52f23f8e3c43865801445b4253d91') in 0.180000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody13
+  artifactKey: Guid(fb3e5ba82c3fb2244b14dde8616deac6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody13 using Guid(fb3e5ba82c3fb2244b14dde8616deac6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c63f19ad72680268ba506b8d68abb46f') in 0.021808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002374 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Materials/Engines/Thrusters
+  artifactKey: Guid(ce545709b3131164fa80f7cbeca4243b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Materials/Engines/Thrusters using Guid(ce545709b3131164fa80f7cbeca4243b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b753b7c43ef04c3ac1f847a7bd4c4a33') in 0.006166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Materials/Weapons/BigLauncher.mat
+  artifactKey: Guid(ec6f04fd8f865a1498a4a664497961cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Materials/Weapons/BigLauncher.mat using Guid(ec6f04fd8f865a1498a4a664497961cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fdeeaa6aeb898d682e02f4f7aafb6ace') in 0.138368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2
+  artifactKey: Guid(caffe210cea8aee458f5d5c7dae15921) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2 using Guid(caffe210cea8aee458f5d5c7dae15921) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c10240d9336774cf9b1bf98b5aa3a82') in 0.005753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Masks/Engine1_Neutral.png
+  artifactKey: Guid(43585d00c43c25f4d8c4d32eb00ee80e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Masks/Engine1_Neutral.png using Guid(43585d00c43c25f4d8c4d32eb00ee80e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ca1a255536b3a315830969facd5c798') in 0.069200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/Masks/CockpitsEquipments_Neutral.png
+  artifactKey: Guid(e6d66f1655c376148afd7748aae12118) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/Masks/CockpitsEquipments_Neutral.png using Guid(e6d66f1655c376148afd7748aae12118) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43b0cb5359c46582838cebfdb150e10b') in 0.065306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Materials/Cockpits/CockpitEquipments/CockpitEquipments_TargetScreens.mat
+  artifactKey: Guid(acc1e4addf40628439f6ad5785c2801c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Materials/Cockpits/CockpitEquipments/CockpitEquipments_TargetScreens.mat using Guid(acc1e4addf40628439f6ad5785c2801c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea61b1b6122122fe6db828eaa9bae712') in 0.091440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003808 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Materials/Weapons/Blaster.mat
+  artifactKey: Guid(f8e1b4c0c55e7504a97b04bf5094c7bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Materials/Weapons/Blaster.mat using Guid(f8e1b4c0c55e7504a97b04bf5094c7bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd50d2ab6cfa7d40c3158df3039bde554') in 0.155487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Cockpit3_Grey.png
+  artifactKey: Guid(e85b59197b0fdda47b583c78415b1f6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Cockpit3_Grey.png using Guid(e85b59197b0fdda47b583c78415b1f6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '864aa221b14bbc785402afb3dc6b82c7') in 0.041947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/MainBody13_Mirrored.prefab
+  artifactKey: Guid(ae8be24f5c456934ab1808e9cec2c8ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/MainBody13_Mirrored.prefab using Guid(ae8be24f5c456934ab1808e9cec2c8ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b462eb992ce6f09a57922f91c42f1fc') in 0.012244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Scenes
+  artifactKey: Guid(d47ce255786f89e40a407fb0c4cf0719) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Scenes using Guid(d47ce255786f89e40a407fb0c4cf0719) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d2060fa53197e6f920ba3e4d63df980') in 0.012569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody13/Masks/MainBody13_Mask2.png
+  artifactKey: Guid(971f14aa4e60cea458829a30151f813e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody13/Masks/MainBody13_Mask2.png using Guid(971f14aa4e60cea458829a30151f813e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7982d58b4e36af93f3ce8d2d4c9ed73a') in 0.052651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments
+  artifactKey: Guid(bd8493f761364a243919d03bbffffd44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments using Guid(bd8493f761364a243919d03bbffffd44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '25d56e077191f45a855028abff7be30c') in 0.005698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody2/MainBody2_Normal.png
+  artifactKey: Guid(eb189a7044568b641a98cacb8db0c57a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody2/MainBody2_Normal.png using Guid(eb189a7044568b641a98cacb8db0c57a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a76f8809436734b0abc0cffc428762b1') in 0.055094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Weapons/Blaster/Blaster_MetallicSmoothness.png
+  artifactKey: Guid(aca27ce9af346824a9326b86237192d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Weapons/Blaster/Blaster_MetallicSmoothness.png using Guid(aca27ce9af346824a9326b86237192d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f262f92f759389b122d1fc09c15a82b9') in 0.046392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6/Masks
+  artifactKey: Guid(34f9eaa9188438249b3c3c7e59c794a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6/Masks using Guid(34f9eaa9188438249b3c3c7e59c794a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4f23ad11f250e7200f07a0571ac7851') in 0.005634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Materials/Cockpits/Grey/Cockpit3Grey_interior.mat
+  artifactKey: Guid(4ac9803d443f78f4bbedb0ef1c4a4f21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Materials/Cockpits/Grey/Cockpit3Grey_interior.mat using Guid(4ac9803d443f78f4bbedb0ef1c4a4f21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e8bea0c7aa765fd69a2df3127ba36a2') in 0.125357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6
+  artifactKey: Guid(2c9db4a360046ab45bbecfdcb3101b6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing6 using Guid(2c9db4a360046ab45bbecfdcb3101b6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2eb6df8946090ebf93eeed0c47dec194') in 0.017055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Masks/Engine1_Mask1.png
+  artifactKey: Guid(65db7f8c1be1caa4cb1a74184dd653d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Masks/Engine1_Mask1.png using Guid(65db7f8c1be1caa4cb1a74184dd653d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c6f262f3665f30f0c8e29c95b5db71e') in 0.059734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/CockpitsEquipments_Albedo.png
+  artifactKey: Guid(67422a5be38c745449c6a2b0410e22e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/CockpitsEquipments_Albedo.png using Guid(67422a5be38c745449c6a2b0410e22e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71be0c45e728cf682f4e1b1fc0586ef4') in 0.077708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2/Masks/Wing2_Neutral.png
+  artifactKey: Guid(c4bb8e91dbd953645897e9603895e320) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2/Masks/Wing2_Neutral.png using Guid(c4bb8e91dbd953645897e9603895e320) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9328c49c13af9ea84e8d6550550998c8') in 0.048689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Materials/Cockpits/CockpitEquipments/CockpitEquipments_Screens.mat
+  artifactKey: Guid(a27339738c63b7848a26fca5e1f654e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Materials/Cockpits/CockpitEquipments/CockpitEquipments_Screens.mat using Guid(a27339738c63b7848a26fca5e1f654e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9a8412364ea6be9fa76cf46a0330e80') in 0.026046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2/Wing2_MetallicSmoothness.png
+  artifactKey: Guid(d1641cef42f09c643b3ae9b86e29f7bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2/Wing2_MetallicSmoothness.png using Guid(d1641cef42f09c643b3ae9b86e29f7bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66db5e989130214a1ae31769bd601d0d') in 0.071680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example2NoInterior_Grey.prefab
+  artifactKey: Guid(2dd421233b21bfb47aac86017eaa5283) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example2NoInterior_Grey.prefab using Guid(2dd421233b21bfb47aac86017eaa5283) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '263bfdc9f389333f055ab7953592ca5f') in 0.025309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Materials/Engines/Grey
+  artifactKey: Guid(deed5e3608233e64eb9c00dd0b4fa371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Materials/Engines/Grey using Guid(deed5e3608233e64eb9c00dd0b4fa371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f925125fa107c7566d884d2a14d37c9') in 0.018894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Weapons/Blaster/Masks
+  artifactKey: Guid(33cf4d00db70fa948a8d3b606a04d28f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Weapons/Blaster/Masks using Guid(33cf4d00db70fa948a8d3b606a04d28f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4441f4d66f274316b5fa713ad3a701a2') in 0.016494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003028 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/MainBody13.prefab
+  artifactKey: Guid(16db349a6a34d1842aa7dae341465efe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/MainBody13.prefab using Guid(16db349a6a34d1842aa7dae341465efe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38a565f1395684d21f77c7d60e6be53d') in 0.021679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Cockpit3_WithoutInterior.prefab
+  artifactKey: Guid(9e7f9a051631c1c4c8eaa31eb406ff68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Cockpit3_WithoutInterior.prefab using Guid(9e7f9a051631c1c4c8eaa31eb406ff68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9b0d2205f1ecf89001eae25ba0137a7') in 0.018710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Cockpit3(interior)_Normal.png
+  artifactKey: Guid(b7346f26dfb2ef042acc96ae49f83121) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Cockpit3(interior)_Normal.png using Guid(b7346f26dfb2ef042acc96ae49f83121) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8175891d614dead3d0c59c4df344e0b') in 0.048780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/Masks/CockpitsEquipments_Mask3.png
+  artifactKey: Guid(e2ab8ea1926583a448744e4c3fdd6277) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/Masks/CockpitsEquipments_Mask3.png using Guid(e2ab8ea1926583a448744e4c3fdd6277) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3e10bc2738ce6137831a1e7675851a5') in 0.052481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Examples
+  artifactKey: Guid(fd71d468f41a762458053e85400dced9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Examples using Guid(fd71d468f41a762458053e85400dced9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9faa84c775f5ccec0c105ac68f8f2bba') in 0.004814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/CockpitEquipments-Screens.png
+  artifactKey: Guid(2cd164d6c3bf8dd40931f439f15d45e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/CockpitEquipments-Screens.png using Guid(2cd164d6c3bf8dd40931f439f15d45e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53282a27cd13c244776c7407153dc5c7') in 0.051660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Weapons/BigLauncher
+  artifactKey: Guid(234415efd5bc746438610efb5d1c7dd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Weapons/BigLauncher using Guid(234415efd5bc746438610efb5d1c7dd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74a4a4501ec0d7af3045fe7fcf50ea9c') in 0.004625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/CockpitsEquipmentsl_Normal.png
+  artifactKey: Guid(b36724e6125a59045af03ebb7d8aa8f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits/CockpitsEquipments/CockpitsEquipmentsl_Normal.png using Guid(b36724e6125a59045af03ebb7d8aa8f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bcfc90cce9988bea667036f13d5fcdfc') in 0.041859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example5_Grey.prefab
+  artifactKey: Guid(dbaff94d077d3c847b0a5840c0da435b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example5_Grey.prefab using Guid(dbaff94d077d3c847b0a5840c0da435b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4fe7e5a9bea36a18eb46831bc6d5ad41') in 0.020427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 503
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Weapons/Blaster/Masks/Blaster_Mask1.png
+  artifactKey: Guid(accd7a7b1ec90db448830c12ae9fcc9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Weapons/Blaster/Masks/Blaster_Mask1.png using Guid(accd7a7b1ec90db448830c12ae9fcc9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03424f6d16dd51191cee654a5f355de6') in 0.071899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Engine1_Normal.png
+  artifactKey: Guid(0d1ca60291887c14c85aa7eb169492b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Engine1_Normal.png using Guid(0d1ca60291887c14c85aa7eb169492b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3206490cd2b71a26e69c281d6f77d742') in 0.054903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Masks/Cockpit3_Mask1.png
+  artifactKey: Guid(ed0e6ac50a56d3e4c9022ec3bf03d5cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Masks/Cockpit3_Mask1.png using Guid(ed0e6ac50a56d3e4c9022ec3bf03d5cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9b02dbb31c245fdffa11092f06ff3f1') in 0.070236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Materials/MainBodies/Red/MainBody13.mat
+  artifactKey: Guid(4e219e4526922b441a10f1e5eec7bc64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Materials/MainBodies/Red/MainBody13.mat using Guid(4e219e4526922b441a10f1e5eec7bc64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4fa93960e2f0e2b76d23a91001ff50d3') in 0.111535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Cockpit3_WithInterior.prefab
+  artifactKey: Guid(54e1b562c3fea284f8a0ec8cdc70057c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Cockpit3_WithInterior.prefab using Guid(54e1b562c3fea284f8a0ec8cdc70057c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '70ec9e03aa46fa6106714eadb098f74e') in 0.009431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 280
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Materials/Engines/Red
+  artifactKey: Guid(8e913fdec4947c140b2968b913270efb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Materials/Engines/Red using Guid(8e913fdec4947c140b2968b913270efb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6888d867942d68752d48843c489d5dd0') in 0.003569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Materials/Cockpits/Grey/Cockpit3Grey_Glass.mat
+  artifactKey: Guid(c2d4d25d7a5c2f64985560aea56fd939) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Materials/Cockpits/Grey/Cockpit3Grey_Glass.mat using Guid(c2d4d25d7a5c2f64985560aea56fd939) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6f3fb05ad17de209e5406fab3b5aa10') in 0.146407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody2/MainBody2_Red.png
+  artifactKey: Guid(8f19f91964f964b41b91d12dfe064cef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/MainBodies/MainBody2/MainBody2_Red.png using Guid(8f19f91964f964b41b91d12dfe064cef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8dd22706e50d1b55f86b0d84a008f2e8') in 0.054692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Masks/Engine1_Mask2.png
+  artifactKey: Guid(55bc630b091595f469f24d4cfbae007f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Engines/Engine1/Masks/Engine1_Mask2.png using Guid(55bc630b091595f469f24d4cfbae007f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '903318c3a9735127f8988976c203258f') in 0.053371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Materials/MainBodies/Red/MainBody2.mat
+  artifactKey: Guid(b4b55b1be105adb4598a03ab3a6fc0db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Materials/MainBodies/Red/MainBody2.mat using Guid(b4b55b1be105adb4598a03ab3a6fc0db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea2a09043d493bfeeba55bd6b1f13810') in 0.090262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Materials/Wings/Red/Wing2.mat
+  artifactKey: Guid(24f339a096fd9df4fb9080ff424c5e40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Materials/Wings/Red/Wing2.mat using Guid(24f339a096fd9df4fb9080ff424c5e40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57e984d0c0f4a8085160555cc959b3ca') in 0.111077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000573 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Engines/Thrusters/Thrusters_Emission1.png
+  artifactKey: Guid(5bfc5eefcdd7ca04ebb6e1e089e6b3cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Engines/Thrusters/Thrusters_Emission1.png using Guid(5bfc5eefcdd7ca04ebb6e1e089e6b3cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5679518865640749a2103f1773a1d7fd') in 0.046853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003288 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Materials/MainBodies/Grey/MainBody13.mat
+  artifactKey: Guid(0a54a06feeed96649a96e5f8a061fd04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Materials/MainBodies/Grey/MainBody13.mat using Guid(0a54a06feeed96649a96e5f8a061fd04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6fd4f7476ff72a564f7f42afe42e33d3') in 0.111389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Scenes/Examples.unity
+  artifactKey: Guid(290c413840af10d4885aae18c17ab0cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Scenes/Examples.unity using Guid(290c413840af10d4885aae18c17ab0cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20b2c5280727357096dc25227865e091') in 0.004059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Masks
+  artifactKey: Guid(1a7b5233af4914547885e19012636168) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Cockpits/Cockpit3/Masks using Guid(1a7b5233af4914547885e19012636168) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a614e0f479087a665a62675647db7db') in 0.004444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Blaster.prefab
+  artifactKey: Guid(b6362f50ca5d7b145ba56bc6c23080ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Blaster.prefab using Guid(b6362f50ca5d7b145ba56bc6c23080ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '300be23e38c6b22093a56201f3d27f38') in 0.022943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Materials/Wings/Grey/Wing6.mat
+  artifactKey: Guid(2dafd004b7ca39d4898282d5e1f2be19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Materials/Wings/Grey/Wing6.mat using Guid(2dafd004b7ca39d4898282d5e1f2be19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9972f4f26626b122c458c1d433f0a75e') in 0.098916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Meshes/FreeExampleModules.FBX
+  artifactKey: Guid(660686678d5f55947881d7fe1a8292c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Meshes/FreeExampleModules.FBX using Guid(660686678d5f55947881d7fe1a8292c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28f706ae2d1054ee84144ac64dc92864') in 0.129759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 218
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2/Wing2_Grey.png
+  artifactKey: Guid(b6c37ed359ba09e44ae1b9650475aced) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Wings/Wing2/Wing2_Grey.png using Guid(b6c37ed359ba09e44ae1b9650475aced) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fcea68d0bd6da707eea7a7ec09cfdb13') in 0.050038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Textures/Engines/Thrusters/Thrusters_Normal.png
+  artifactKey: Guid(7f69fbabbfab1a44485b832cf5f0a2b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Textures/Engines/Thrusters/Thrusters_Normal.png using Guid(7f69fbabbfab1a44485b832cf5f0a2b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee4d65f50c94858b929577ad0281c5e8') in 0.032122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 23.685553 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Blaster.prefab
+  artifactKey: Guid(b6362f50ca5d7b145ba56bc6c23080ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Blaster.prefab using Guid(b6362f50ca5d7b145ba56bc6c23080ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f706ae9f494dc87176c718a728179fd0') in 0.400442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.005490 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Wing6.prefab
+  artifactKey: Guid(6b60ceeabc86a6e43a7a918dbbcab26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Wing6.prefab using Guid(6b60ceeabc86a6e43a7a918dbbcab26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6ea64814f093598c45ab83621c8e48') in 0.105377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/MainBody13_Mirrored.prefab
+  artifactKey: Guid(ae8be24f5c456934ab1808e9cec2c8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/MainBody13_Mirrored.prefab using Guid(ae8be24f5c456934ab1808e9cec2c8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b1ffe17403aaa3cbd91ac26e4b0659') in 0.112180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/MainBody13.prefab
+  artifactKey: Guid(16db349a6a34d1842aa7dae341465efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/MainBody13.prefab using Guid(16db349a6a34d1842aa7dae341465efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5ea029068cabc873b7af45efe88d33') in 0.134354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Engine1.prefab
+  artifactKey: Guid(46b44d60b1f0369449bf47d8ef9e2fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Engine1.prefab using Guid(46b44d60b1f0369449bf47d8ef9e2fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80dad34578d7a74fd048e3e0ce170352') in 0.267914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Cockpit3_WithoutInterior.prefab
+  artifactKey: Guid(9e7f9a051631c1c4c8eaa31eb406ff68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Modules/Cockpit3_WithoutInterior.prefab using Guid(9e7f9a051631c1c4c8eaa31eb406ff68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46baa1df98a1654281dba47f16a208c') in 0.177851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 3.491336 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example1NoInterior_Red.prefab
+  artifactKey: Guid(8b9e8529f42020f4dacf64553cb2203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example1NoInterior_Red.prefab using Guid(8b9e8529f42020f4dacf64553cb2203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0735156b80f92aafae9b9b8852c6e360') in 2.571320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 386
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example4NoInterior_Grey.prefab
+  artifactKey: Guid(8d4e19a2324d72249a81ab7bcfad91a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/ExamplesNoInterior/Example4NoInterior_Grey.prefab using Guid(8d4e19a2324d72249a81ab7bcfad91a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a672db06b2bd9b5ce3cb643360088d0') in 2.350574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 380
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example1_Grey.prefab
+  artifactKey: Guid(50d56e9319acd7440a97582160b01520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HiRezSpaceshipsCreatorFree/Prefabs/Examples/Example1_Grey.prefab using Guid(50d56e9319acd7440a97582160b01520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6640d89079c6dadb559df8f3649ba317') in 3.687936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 889
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
